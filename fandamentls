@@ -1,0 +1,39 @@
+* AWS:--
+
+* TYPES OF EC2 
+1) General purpose - Balance momory & networking resources CPU (will provide average storage)  (A, M, T series) 
+2) Compute Optimized - More CPU than RAM (C series)
+3) Memory Optimized - More RAM           (R series)
+4) Accelerated Optimized/GPU - Graphics optimized (p,G, F series)  (Jha v live streaming like gaming)
+5) Storage Optimized -Low latency         (I,D, H series)  
+6) previous generation 
+6) High Memory optimized - High RAM, nitro System.
+
+instance storage is direct attach storage, EBS is network attach storage)
+
+
+*VPC (Virtual private Cloud)  (private cloud)
+*VPC is a virtual network there u can use your datacenter in AWS.
+
+* it's logically isolated.
+*in a reason we can create 5 VPC, and 200 subnet in a one VPC
+*In one account u can create 5 elastic ip
+* when we create vPC, DHCP, NACL and security group will be create automatically 
+*  VPC is a reson specific and subnet is region specific.
+* CIDR - subnet range, u cannoot give same subnet on two VPC in a same reason
+
+*Create VPC,  subnet, gateway, route table.
+
+* Public subnet:--
+*only public subnet can connect with internet gateway.
+*If subnet is routed to the gateway the subnet is known a a public subnet.
+
+* Private subnet..
+in private subnet does not have route to the nternet ateway that is private subnet.
+
+*when we create VPC must have CIDR ipv4 and range is /16 to 28 netmask.
+*start 4 and last ip always reserved ip addresss.
+
+0 - network address
+1 - vpc route
+2 - dns
