@@ -1,0 +1,42 @@
+ * VPC:--
+
+* router & route table.
+it  use to connect two different availablity zone and the internet gayeway.
+*Each subnet must be ssociated with only one route table at a time.
+
+* Internet gateway:-
+* Internet gateway is way to connect VPC to the intenet 
+* intenet gateway is covert private ip tp public ip to connect with internet.
+
+* NAT (network address translation) gateway:--
+
+* Nat gateway work with only public subnet.
+*using Nat gateway private sunbet can communicate with internet.
+* must also specify an elastic ip addess to associate with NAT gateway when u create it.
+we will add NAt in route table to communicate
+
+* security group:-
+* is kind a virtual firewall
+* is provide subnet layer security
+* only has allow rule, not has to dined port rule.
+
+* NACL:--
+
+* is a optional layer security, when we can define inbound and outbound traffic for VPC.
+in custoem NACL bydefault all traffic denide for vPC 
+*subnet layer security
+
+
+* using peering connect can communicate two different VPC. 
+
+* VPC ENDPOINT:--
+
+A vpc endpoint enable ypu to privately connect your VPV to supported AWS services instances in ur VPC do not required public ip address to communicate with resources in the services.
+
+
+* VPN (pritual private network):-
+create [private network tunne to communicate with server to one location  to different location 
+
+. for secureconnection we connect VPN connection, for avoide connection on public network.
+
+
