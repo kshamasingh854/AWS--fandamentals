@@ -1,0 +1,61 @@
+* AWS S3 (SIMPLE SEVICE STORAGE):-- (object level storage, u can store anything, and u cam access from anywhere through internet through http, https)
+
+* Types of AWS storage :--
+
+1) simple storage service (object level)
+
+2) Elastic file system(EFS) ( u can share wetbeen availability zone and account, use only for Linux based o.s)
+
+3) Elastic Block storage (EBS) (use only with EC2 instance, it's network connected storage of ec2, it's store data in block formate)\
+
+4) S3 Glacier (cheapest storage)
+5)Snowall
+
+* S3 :- is a object level storage for the internet, it can store any type of the data in S3 bucket.
+
+(S3 is the storage for the internet , It has a simple webservice interface for simple storing & retriving of any amount of data anytime from anywhere on the internet.
+* we can not install o.s inside S3 .
+*data store in bucket. 
+*bucket is flat container of object. 0 to 5TB only can store in one bucket.
+
+* S3 subresources.
+
+1) lifecycle
+2) Website  (To hold configuration related to static website hosted in S3 bucket))
+3) Versioning (version keep store all deleted and updated data)
+4) access control list.
+
+* Storage classes of amazon S3:-
+
+1) amazon S3 standard (use for frequntly access data) (durability is 11 times 9)
+
+2)  Glacier       ( long term storage)
+is a secure, durable low cost storage cals for data archiving.
+
+3) s3 Glacier Deep archive (cheapent storage) (have to pay retriever charges )
+is amazon S3 chepest storage design to re
+
+4) S3 Standerd infrequently access (stander IA) -  
+is a for data that is accessed less frequntliy, but requie rapid access when needed
+(cost less but you pay to access it more frequently)
+
+5) S3 One_ Zone -IA 
+is for data that is access lesss requntly, but requires rapid access when needed
+* data store in single AZ.
+
+
+6) S3 Intelligent Tiering:-
+   is designed to optimized cost by automatically moving data to the most cost effective access-tier.
+
+
+
+
+
+
+
+
+
+
+
+
+ 
