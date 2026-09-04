@@ -1,0 +1,40 @@
+
+*Create bucket add file folder, make public and access publically
+
+*How to use s3 configuration os cli
+* install awscli for window
+*create access key from aws account 
+*CMD 
+#aws configure
+key, secret
+
+#aws s3 ls
+#aws s3 mb s3://ksh90  (make bucket)
+# cd /desktop
+#cd test
+#aws s3 sync .(curr loc) s3://ksh90 ( push on aws)
+#aws sync s3:/ksh90 . (currnt loc) (pull from aws on desktop)
+#aws s3 rb s3://ksh90  (remove bucket from aws)
+
+
+* S3 doesnot require region selection 
+
+*VERSNING
+* CROSS REGION REPLICATION (we can share upload data in two different region at a time)
+#create ucket in both region.
+# bucket- management- create replication rule
+
+* lifecycle (move data in other storage) 
+# bucket- management- create lifecycle
+
+* EFS (ELASTIC FILE SYSTEM)
+:- if create two instance in same region on different AZ and we want to create one common storage, where both ec2 can access the data from there common storage
+*only work with Linux machine
+
+*EFS storage
+#create fs  (after create tehre will show instruction which commands need to run on ec2 for create storage)
+# create two ec2
+
+
+
+
