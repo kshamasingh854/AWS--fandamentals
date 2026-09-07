@@ -1,0 +1,33 @@
+*1)create one free domain  * same domain name ka create bucket, *upload one file index.html
+*make public of hat bucket * properties - static wesite enable *permission - bucket policy
+
+* go to Route53 - DNS management - 
+
+
+
+* EBS (Elastic Block storage):-- (network attach storage to ec2)
+(EBS volume  are attach to ec2 through the aws network, like virtual harddisk)
+* instance store  (it's directly attach storage to ec2 instance) 
+
+* EBS volume types:--  
+1) SSD Backed volume (general purpose(gp2)   (default volume)
+                     (provisioned IOPS(io1)
+2) HDD Backed volume
+    (st1), cold HDD(sc1)  (Non bootable)
+
+3) magnetic standard  (Old type, bootable)
+
+IOPS(input out persecond) - (read and write), throughput - (MB/s)
+
+
+*EBS Snapshots:-- (are point-in-time images copies of EBS volume) (store in S3 volume) 10k snps can create
+*EBS AZ specific and snashop is region specific
+* any AZ in region can use snapshort to create EBS volume.
+
+* EBS snapshorts are store incrementally
+
+*EBs encryption (when the data access to ec2 to EBS to moove in EBs to ec2 in incrypted formate) (data ncrypte on ec2 side)
+
+*we can uncrepted EBS if we want 
+
+
