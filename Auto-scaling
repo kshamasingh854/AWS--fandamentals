@@ -1,0 +1,39 @@
+*create image from instace from action and copy that image in different region , and just launch the istance using that image in different region .
+
+
+* we can share the image with two aws account
+* create screenshot of volume/and instance. and u can create image and then instance usngig that.
+
+
+*AUTO SCALING:-- (AUTO SCALABLITY)Region specific
+createing group of ec2 ins that can scale up and down depending on load conditions you set.
+ horizontal scaling , virtical scaling 
+
+*launch condition;- instance, ami type, keypair
+*autoscaling group  - create instance, group size, vc , subnet, health check period, region specific
+* scaling policy -  target volume,metric typw.
+
+*Auto scaling always tries to balance the instances distribution across AZ's.
+*you can detach ec2 and detach with other auto scaling group
+ 
+*ELS elastic load balancer
+*elastic load balancer must be in the same region as the autoscaling 
+*instance and the ELB must be in the same VPC.
+
+* notification is launched, failed, terminate, 
+
+*you can merging auto scaling group
+*scale in - down, 
+*scale out - up
+u can manually ec2 ins in standby, still manage by autoscaling
+  
+* Auto Scaling policy
+1)manual - desire, min number, max number ec2
+2)dynamic - *target tracking, *simple sacling, *step scaling policy.
+
+*target cpu utilization target. like 70% always maintain
+*simple- when load reach 70% create new 4 ec2 ya create 2 ec2 
+*step -  when reach load 50 to 60% create 2 ec2 and when reach 60 to 70% create 4 ec2
+warmup period - during start ec2 
+
+* 
