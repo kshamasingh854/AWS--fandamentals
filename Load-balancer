@@ -1,0 +1,15 @@
+* ELB ( ELASTIC LOAD BALANCER) (region specific)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                
+
+*Load balancer:-- Ft (fault taolrance, high valablity(HA)
+:- load balancer distribute the web traffic to the valable servers
+
+
+types of load balancer:
+1) Application load balancer  (only work on http and https traffic)
+2) Network load balancer / TCP/UDP/TLS
+3) classic Load balancer  (PRIVIOUS Generation)
+
+*target group - group of ec2
+target - ec2
+
+*
