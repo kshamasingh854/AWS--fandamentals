@@ -27,3 +27,7 @@ it's region specifid.
 
 *Target group:--
  
+*LAB:--
+We will create two instance in diffret AZ.
+*create Application ELB and add both AZ, and create target group add both ec2 instance 
+we will access the web using DNS.
