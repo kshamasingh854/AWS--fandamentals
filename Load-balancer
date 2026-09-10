@@ -27,7 +27,13 @@ it's region specifid.
 
 *Target group:--
  
-*LAB:--
-We will create two instance in diffret AZ.
+*Application LB LAB:--
+We will create two instance in diffret AZ and create html file in nstance.
 *create Application ELB and add both AZ, and create target group add both ec2 instance 
-we will access the web using DNS.
+we will access the web page using ELB DNS from webbrowser.
+
+*Network LB LAB:--
+*create two ec2 instamces in diffrent AZ create html file.
+*create Netwok LB and add both AZ, craete target group and add private ip of both instnces.
+and access the we page from browser using DNS Of Loadbalancer.
+
