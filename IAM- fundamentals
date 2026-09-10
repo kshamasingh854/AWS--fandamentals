@@ -1,0 +1,17 @@
+* IAM (Identity and access management system (IAM):=
+
+* is a web service that helps you securely control access to AWS resources. you use IAm to control who is authenticated (signed-in) and authorized(has permission) to use Resources.
+ 
+*authenticated - user, pass
+authorize:- jiski permission h uske pass
+
+* limites of aws resources:-
+300 group per aws account
+* 1000 IAm roles per Aws acoount
+* manage police attached an IAm role and IAm user is 10
+ 
+1) Shared account to your AWs account
+2) granular permission
+3)Secure access to aaws resourecs for application that run on amazonEC2
+4) multifactor authentication
+5) identity federation 
