@@ -32,4 +32,8 @@ IOPS(input out persecond) - (read and write), throughput - (MB/s)
 
 *we can uncrepted EBS if we want 
 
+*LAB
+*create image from instace from action and copy that image in different region , and just launch the istance using that image in different region .
 
+* we can share the image with two aws account
+* create screenshot of volume/and instance. and u can create image and then instance usngig that.
