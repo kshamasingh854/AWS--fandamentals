@@ -1,11 +1,5 @@
-*create image from instace from action and copy that image in different region , and just launch the istance using that image in different region .
+ *AUTO SCALING:-- (AUTO SCALABLITY)Region specific
 
-
-* we can share the image with two aws account
-* create screenshot of volume/and instance. and u can create image and then instance usngig that.
-
-
-*AUTO SCALING:-- (AUTO SCALABLITY)Region specific
 createing group of ec2 ins that can scale up and down depending on load conditions you set.
  horizontal scaling , virtical scaling 
 
