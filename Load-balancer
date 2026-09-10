@@ -12,4 +12,18 @@ types of load balancer:
 *target group - group of ec2
 target - ec2
 
-*
+* by default, the ELB distributes traffic evenly between the AZ it is defind in without condideration to the number of registration 
+EC2 instancesin each AZ
+* by default, ELB distribute the trrafic bassed on AZ, not based on EC2 instamce 
+
+* CROSS ZONE LOAD BALANCING:--
+*Disable by default.
+
+* when enabled, the ELB will distribute traffic evenly between registred EC2 instances.
+it's region specifid.
+* only one subnet can be define for the ELB in an AZ.
+* ELB should always be accessed using DNS not IP
+*ELB nodes will have public ip address.
+
+*Target group:--
+ 
