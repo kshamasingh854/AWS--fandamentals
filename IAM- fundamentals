@@ -19,9 +19,40 @@ authorize:- jiski permission h uske pass
 
 
 
-*IAM TERMS:--
+*IAM TERMS and components:--
 1) Principal - user, application, fadrating user (jo rsources ko use krra h)
 2) Request - resource request by user
 3) Authentication - user, passwd, only for authenticusrer
 4)Authorization- which permission you have, to use resouces.
-5) 
+5) Action/oprations
+6) Resources. :- AWs all services are resources.
+
+*Principle:-- IAM users is your first principle.
+* Actions:- define by a service and are the things that you can do to a resource such as viewing, 
+creating, editing and deleting that Resource.
+
+*Identity fadration:-- If your account user already have a way to be authenticated
+such as authentication through your corporate netwwork
+
+*IAM IDENTITIES:-
+* USERS
+* GROUP :- COLLECTIOS OF USERS
+* ROLE :- identity with permission policy that determine what the identity can and con not do in aws
+
+* PERMISSION NA POLICE:--
+identity based POLICE:-- set the permission are granted through police to user, role, group  
+
+*By default,IAM can not access anythingin in your account
+*user police:- that define the effect, actions, resources and optional conditions.
+*Resource based police:- 
+
+
+*IAM USER - The Root USEr:- that has all permission to don any thuing in aws account.
+
+*An IAm user with addministrator permissions is not the same things as the AWS account root user.
+
+
+
+
+
+
