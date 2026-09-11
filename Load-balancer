@@ -1,6 +1,6 @@
 * ELB ( ELASTIC LOAD BALANCER) (region specific)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                
 
-*Load balancer:-- Ft (fault taolrance, high valablity(HA)
+*Load balancer:-- Ft (fault tolahrance, high valablity(HA)
 :- load balancer distribute the web traffic to the valable servers
 
 
@@ -12,7 +12,7 @@ types of load balancer:
 *target group - group of ec2
 target - ec2
 
-* by default, the ELB distributes traffic evenly between the AZ it is defind in without condideration to the number of registration 
+* by default, the ELB distributes traffic evenly between the AZ it is defind in without consideration to the number of registration 
 EC2 instancesin each AZ
 * by default, ELB distribute the trrafic bassed on AZ, not based on EC2 instamce 
 
