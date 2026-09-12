@@ -40,6 +40,8 @@ such as authentication through your corporate netwwork
 * ROLE :- identity with permission policy that determine what the identity can and con not do in aws
 *policy:-you can assign access policy to users which permission you will give
 *inline policy:- it will show more options to give specific permission for users.
+* Role :-- use for fadrated user
+
 
 * PERMISSION NA POLICE:--
 identity based POLICE:-- set the permission are granted through police to user, role, group  
