@@ -1,0 +1,17 @@
+*Route 53 :- DNS - port53) (Global service)
+
+you can use amazon Route 53 to register new domain , transfer existing domains route traffic 
+for your domains to your AWS and external resouces, and monitor the health of your resources.
+
+(DNS related all services, DNS provide krna , DNS related all work mnage krta h)
+
+* DNS Management
+* Traffic Management
+* Available Monitoring
+* Domain Registration
+
+*AWS :- Generaic level domain (.com, .org, .net)
+       geographic level domain (.cn, .us, .in)
+
+*Register a domain
+*
