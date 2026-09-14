@@ -13,9 +13,17 @@ for your domains to your AWS and external resouces, and monitor the health of yo
 *AWS :- Generaic level domain (.com, .org, .net)
        geographic level domain (.cn, .us, .in)
 
-*Register a domain
-*
+*Register a new domain
+*Transfer domain
+You can transfer domain names to Route 53 that you registered with another domain registrar.
 
+*Create hosted zones
+A hosted zone tells Route 53 how to respond to DNS queries for a domain such as example.com.
+*Configure health checks
+Health checks monitor your applications and web resources, and direct DNS queries to healthy resources.
+*
+*Configure resolvers
+A regional service that lets you route DNS queries between your VPCs and your network.
 
 
 
