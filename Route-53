@@ -15,3 +15,40 @@ for your domains to your AWS and external resouces, and monitor the health of yo
 
 *Register a domain
 *
+
+
+
+
+
+
+*When you create a hosted Zone amazon route 53 automatically creates a name server(NS) records and a start of authority record (SOA) for the zone
+
+*Route 53 Routing polices:-a route
+when you create a record, you choose a routing policy , which determines how amazon route 53 respond to queries.
+
+* ROUTING POLICES:=
+1) simple Routing (Default)
+2) Failover Routing 
+3) GeoLocation Routing
+4) Multi volue Answer Routing (provide multiple public ip state based)
+5) Latency Based Routing
+6) Weighted Routing
+7) Geo- proximity
+
+
+*Failover routing:-
+if the primary web server get down, automatically all traffic will fowrda to secondary web server.
+
+* Geo location routing:-
+
+
+
+
+
+
+
+
+
+
+
+
