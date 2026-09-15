@@ -1,0 +1,48 @@
+ * LAMDA:-
+Lamda Is a compute service that let you run code without provisioning or managing servers.
+*Lamda is plateform as a service.
+
+*With AWS lamda, you can run code for vitually any type of application or backend service -all with zero administration.
+
+*AWS Lamda manages all the administration it manages.
+1) Provisioning and capacity of the compute fleet
+
+2) server and O.S mantainace
+* high availability and automatic scaling
+* Monitoring fleet health
+*Applying security patches
+* Deploying your code.
+* Monitoring and logging your lambda functions
+* AWS lamda runs your code on a high-availability compute infrastructure.
+
+
+* you pay only for the compute time you consume - No charge when your code is not running.
+* AWS supports currently - Nodejs, java, powershell, ruby, python, go langiage.
+
+*you can not costmized in lamdae, ram, memory, anything, lamda automaticalyy will decide what and which they will use. 
+
+
+*HOW Lamda works:-
+* First you upload your code to lamda in one or more lamda function
+*AWS lamda will then execute the code in your behalf.
+* After the code in invoked, Lamda automatically take care of provisioning and managing the Required servers.
+
+*Ec2 is infa as a service.
+*Lamda work flow is automation one service complete hone pe dusra automatically trigger ho jata h
+
+*INPRORATNT TERMS IN LAMDA:-
+
+*FUNCTION :- invoke to run your code in AWS Lamda
+*RUNTIME:- 
+* Event:- jo koi kam hua h
+* Event source/Trigger:- one service complete hone pe dusra trigger ho
+* Downstream Resource:- 
+* Concurrency:-
+
+
+*Lmada fuction work only  with 15 minuts take process. 
+* If the processs will take more than 15 minutes. in condtion you need to use ec2 server.
+
+Lmada prefer only for small time consume process.
+
+*Maximum execution timeout(we set the time to excute the process)
