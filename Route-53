@@ -25,9 +25,27 @@ Health checks monitor your applications and web resources, and direct DNS querie
 *Configure resolvers
 A regional service that lets you route DNS queries between your VPCs and your network.
 
+* You can use route 53 as the DNS services for any domain, even if the TLD for the domain is not included on the supported TLD list.
+* deligate to route 53
 
+*recursive DNS
+Authoritative DNS
+Root Domain server
+Name server
 
+* Route 53 Hosted Zone:-- you create a hosted zone for a domain and then you create records to tell the domain name system how you want traffic to be routed for that domain.
+*Route 53 automatically creates a name server record with the same name as your hosted zone.
 
+* if you are currently using another DNS service and you want to migrate to amazon route 53
+
+ *start by creating a hosted zone.
+* Route 53 automatically assign the delegations  sets, the four name sersvers to your hosted zone.
+
+*Supported DNS Record types by Route 53
+
+* A Record (ip address record)
+*CName Record:- Is an alternative  record or an alias for another Record.
+* NS Record:- Name server Record  - Defines which name server is a Authoritataive to a partic
 
 *When you create a hosted Zone amazon route 53 automatically creates a name server(NS) records and a start of authority record (SOA) for the zone
 
