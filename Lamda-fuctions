@@ -2,7 +2,7 @@
 Lamda Is a compute service that let you run code without provisioning or managing servers.
 *Lamda is plateform as a service.
 
-*With AWS lamda, you can run code for vitually any type of application or backend service -all with zero administration.
+*With AWS lamda, you can run code for virtually any type of application or backend service -all with zero administration.
 
 *AWS Lamda manages all the administration it manages.
 1) Provisioning and capacity of the compute fleet
@@ -39,8 +39,7 @@ Lamda Is a compute service that let you run code without provisioning or managin
 * Downstream Resource:- 
 * Concurrency:-
 
-
-*Lmada fuction work only  with 15 minuts take process. 
+*Lamda fuction work only  with 15 minuts take process. 
 * If the processs will take more than 15 minutes. in condtion you need to use ec2 server.
 
 Lmada prefer only for small time consume process.
